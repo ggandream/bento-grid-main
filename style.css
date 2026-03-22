@@ -19,7 +19,7 @@
 
 body {
   background-color: hsl(0, 0%, 95%);
-  font-family: "DMSans", sans-serif;
+  font-family: "DMSans-M", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,6 +47,10 @@ img {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
+.invisible-card {
+  display: flex;
+}
+
 /* Create and schedule content quicker */
 .card-create-schedule {
   background-color: hsl(31, 66%, 93%);
@@ -60,6 +64,10 @@ img {
   font-weight: 500;
   letter-spacing: -3px;
   line-height: 1;
+}
+
+.card-create-schedule em {
+  color: hsl(256, 67%, 59%);
 }
 
 .card-create-schedule img {
@@ -79,6 +87,7 @@ img {
 }
 
 .card-social-media-10x h2 {
+  font-family: "DMSans";
   color: hsl(0, 0%, 100%);
   font-size: 60px;
   font-weight: 600;
@@ -112,7 +121,6 @@ img {
 
 .card-schedule-social-media h2 {
   color: hsl(0, 0%, 0%);
-  font-family: "DMSans-M";
   font-size: 38px;
   font-weight: 500;
   letter-spacing: -2px;
@@ -144,7 +152,6 @@ img {
 }
 
 .card-manage-multiple-accounts h2 {
-  font-family: "DMSans-M";
   font-weight: 400;
   margin-top: 100px;
   font-size: 36px;
@@ -162,7 +169,6 @@ img {
 }
 
 .card-maintain-consistent-posting h2 {
-  font-family: "DMSans-M";
   font-size: 36px;
   font-weight: 400;
   letter-spacing: -2px;
@@ -176,23 +182,77 @@ img {
   width: 250px;
 }
 
-/* Grow followers with non-stop content. */
-.card-grow-followers {
-  background-color: hsl(256, 67%, 59%);
-  color: hsl(0, 0%, 100%);
-  grid-column: span 2;
-}
-
-/* >56% faster */
-.card-56 {
-  background-color: hsl(0, 0%, 100%);
-}
-
 /* write your content  */
 .card-write-content {
   background-color: hsl(39, 100%, 71%);
   grid-column: span 1;
   grid-row: span 2;
+  padding: 30px;
+}
+
+.card-write-content h2 {
+  color: hsl(0, 0%, 0%);
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: -4px;
+  line-height: 1;
+  margin-block-start: 0px;
+}
+
+.card-write-content img {
+  display: block;
+  width: 250px;
+  margin-inline: auto;
+}
+
+/* >56% faster */
+.card-56 {
+  background-color: hsl(0, 0%, 100%);
+  padding: 35px;
+}
+
+.card-56 h2 {
+  font-family: "DMSans";
+  font-size: 70px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  margin: 0;
+}
+
+.card-56 p {
+  font-family: "DMSans";
+  font-size: 20px;
+  font-weight: 400;
+  margin-block-start: 5px;
+  margin-block-end: 40px;
+}
+
+.card-56 img {
+  width: 220px;
+}
+
+/* Grow followers with non-stop content. */
+.card-grow-followers {
+  background-color: hsl(256, 67%, 59%);
+  grid-column: span 2;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.card-grow-followers h2 {
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: hsl(0, 0%, 100%);
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.card-grow-followers img {
+  width: 230px;
 }
 
 .attribution {
