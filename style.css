@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "DMSans-M";
+  src: url("assets/fonts/static/DMSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DMSans-I";
+  src: url("assets/fonts/static/DMSans-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("assets/fonts/static/DMSans-Regular.ttf") format("truetype");
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "DMSans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+/* Temporal */
+
+img {
+  width: 50%;
+}
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  flex: 1;
+  gap: 35px;
+  width: 100%;
+}
+
+.card {
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Create and schedule content quicker */
+.card-create-schedule {
+  background-color: hsl(31, 66%, 93%);
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.card-create-schedule h2 {
+  color: hsl(0, 0%, 0%);
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: -3px;
+  line-height: 1;
+}
+
+.card-create-schedule img {
+  display: block;
+  width: 215px;
+  padding: 5px;
+  margin-inline: auto;
+}
+
+/* Social Media 10x Faster with AI */
+.card-social-media-10x {
+  background-color: hsl(256, 67%, 59%);
+  grid-column: span 2;
+  grid-row: span 1;
+  align-content: center;
+  text-align: center;
+}
+
+.card-social-media-10x h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-social-media-10x span {
+  color: hsl(39, 100%, 71%);
+}
+
+.card-social-media-10x p {
+  font-size: 20px;
+  color: hsl(254, 88%, 90%);
+  margin-block-start: 0em;
+}
+
+.card-social-media-10x img {
+  width: 200px;
+  padding: 5px;
+}
+
+/* Schedule to social media */
+.card-schedule-social-media {
+  background-color: hsl(254, 88%, 90%);
+  grid-column: span 1;
+  grid-row: span 2;
+  position: relative;
+  overflow: hidden;
+  padding-left: 50px;
+}
+
+.card-schedule-social-media h2 {
+  color: hsl(0, 0%, 0%);
+  font-family: "DMSans-M";
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+.card-schedule-social-media img {
+  width: 420px;
+  position: absolute;
+}
+
+.card-schedule-social-media p {
+  margin-top: 430px;
+  font-size: 20px;
+}
+
+/* Manage multiple accounts */
+.card-manage-multiple-accounts {
+  background-color: hsl(0, 0%, 100%);
+  position: relative;
+  overflow: hidden;
+  padding-left: 30px;
+  padding-right: 60px;
+}
+
+.card-manage-multiple-accounts img {
+  width: 390px;
+  position: absolute;
+}
+
+.card-manage-multiple-accounts h2 {
+  font-family: "DMSans-M";
+  font-weight: 400;
+  margin-top: 100px;
+  font-size: 36px;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+/* Maintain a consistent posting schedule. */
+.card-maintain-consistent-posting {
+  background-color: hsl(39, 100%, 71%);
+  position: relative;
+  overflow: hidden;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.card-maintain-consistent-posting h2 {
+  font-family: "DMSans-M";
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  line-height: 1;
+  margin-block-start: 0px;
+  margin-block-end: 12px;
+}
+
+.card-maintain-consistent-posting img {
+  position: absolute;
+  width: 250px;
+}
+
+/* Grow followers with non-stop content. */
+.card-grow-followers {
+  background-color: hsl(256, 67%, 59%);
+  color: hsl(0, 0%, 100%);
+  grid-column: span 2;
+}
+
+/* >56% faster */
+.card-56 {
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* write your content  */
+.card-write-content {
+  background-color: hsl(39, 100%, 71%);
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.attribution {
+  color: hsl(0, 0%, 0%);
+  margin-top: auto;
+  padding: 15px;
+}
