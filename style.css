@@ -55,7 +55,7 @@ img {
 .card-create-schedule {
   background-color: hsl(31, 66%, 93%);
   grid-column: span 1;
-  grid-row: span 2;
+  grid-row: span 3;
 }
 
 .card-create-schedule h2 {
@@ -73,7 +73,7 @@ img {
 .card-create-schedule img {
   display: block;
   width: 215px;
-  padding: 5px;
+  padding: 5px 0px 80px 0px;
   margin-inline: auto;
 }
 
@@ -81,7 +81,7 @@ img {
 .card-social-media-10x {
   background-color: hsl(256, 67%, 59%);
   grid-column: span 2;
-  grid-row: span 1;
+  grid-row: span 2;
   align-content: center;
   text-align: center;
 }
@@ -113,10 +113,10 @@ img {
 .card-schedule-social-media {
   background-color: hsl(254, 88%, 90%);
   grid-column: span 1;
-  grid-row: span 2;
+  grid-row: span 4;
   position: relative;
   overflow: hidden;
-  padding-left: 50px;
+  padding: 10px 50px 20px 40px;
 }
 
 .card-schedule-social-media h2 {
@@ -134,16 +134,17 @@ img {
 
 .card-schedule-social-media p {
   margin-top: 430px;
+  margin-bottom: 0px;
   font-size: 20px;
 }
 
 /* Manage multiple accounts */
 .card-manage-multiple-accounts {
   background-color: hsl(0, 0%, 100%);
+  grid-row: span 2;
   position: relative;
   overflow: hidden;
-  padding-left: 30px;
-  padding-right: 60px;
+  padding: 30px 60px 10px 30px;
 }
 
 .card-manage-multiple-accounts img {
@@ -154,6 +155,7 @@ img {
 .card-manage-multiple-accounts h2 {
   font-weight: 400;
   margin-top: 100px;
+  margin-bottom: 0px;
   font-size: 36px;
   letter-spacing: -2px;
   line-height: 1;
@@ -162,10 +164,10 @@ img {
 /* Maintain a consistent posting schedule. */
 .card-maintain-consistent-posting {
   background-color: hsl(39, 100%, 71%);
+  grid-row: span 2;
   position: relative;
   overflow: hidden;
-  padding-left: 30px;
-  padding-right: 50px;
+  padding: 30px 50px 10px 30px;
 }
 
 .card-maintain-consistent-posting h2 {
@@ -185,9 +187,10 @@ img {
 /* write your content  */
 .card-write-content {
   background-color: hsl(39, 100%, 71%);
+  grid-row: span 3;
   grid-column: span 1;
   grid-row: span 2;
-  padding: 30px;
+  padding: 30px 30px 0px 30px;
 }
 
 .card-write-content h2 {
@@ -208,7 +211,8 @@ img {
 /* >56% faster */
 .card-56 {
   background-color: hsl(0, 0%, 100%);
-  padding: 35px;
+  grid-row: span 1;
+  padding: 30px 35px 20px 35px;
 }
 
 .card-56 h2 {
@@ -235,10 +239,12 @@ img {
 .card-grow-followers {
   background-color: hsl(256, 67%, 59%);
   grid-column: span 2;
-  padding: 30px;
+  grid-row: span 1;
+  padding: 10px 30px 20px 30px;
   display: flex;
   align-items: center;
   gap: 18px;
+  overflow: hidden;
 }
 
 .card-grow-followers h2 {
