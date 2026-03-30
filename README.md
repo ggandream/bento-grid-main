@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-
+![alt text](image.png)
 
 ### Links
 
@@ -38,12 +38,18 @@ Users should be able to:
 - HTML5
 - CSS
 - CSS Grid
-- Mobile-first workflow
+- HSL color scheme used throughout
+- Responsive design with media queries
 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+The main challenge of this project was building the bento grid layout. I learned how to use `grid-column: span` and `grid-row: span` to make cards take up different amounts of space across the grid.
+
+I also learned how to position images so they overflow their card container using position: absolute and overflow: hidden on the parent, which gives the design a more polished look.
+
+And finally antoher cool thing I learned was that I had to use the Mobile-first workflow but because I learned that late, I used the CSS `order` property to rearrange cards without touching the HTML.
+
 
 ## Author
 
