@@ -23,28 +23,22 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 40px;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-/* Temporal */
-
-img {
-  width: 50%;
+  align-items: center;
+  padding: 2.5em;
 }
 
 .bento-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   flex: 1;
-  gap: 35px;
-  width: 100%;
+  gap: 2.4em;
+  max-width: 1300px;
 }
 
 .card {
-  border-radius: 16px;
-  padding: 40px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 1.2em;
+  padding: 2.5em;
+  box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.05);
 }
 
 .invisible-card {
@@ -60,9 +54,9 @@ img {
 
 .card-create-schedule h2 {
   color: hsl(0, 0%, 0%);
-  font-size: 45px;
+  font-size: 3em;
   font-weight: 500;
-  letter-spacing: -3px;
+  letter-spacing: -4px;
   line-height: 1;
 }
 
@@ -72,8 +66,8 @@ img {
 
 .card-create-schedule img {
   display: block;
-  width: 215px;
-  padding: 5px 0px 80px 0px;
+  width: 13em;
+  padding: 0.5em 0em 1em 0em;
   margin-inline: auto;
 }
 
@@ -84,13 +78,15 @@ img {
   grid-row: span 2;
   align-content: center;
   text-align: center;
+  padding: 1em;
 }
 
 .card-social-media-10x h2 {
   font-family: "DMSans";
   color: hsl(0, 0%, 100%);
-  font-size: 60px;
+  font-size: 4em;
   font-weight: 600;
+  line-height: 1;
   margin: 0;
 }
 
@@ -99,14 +95,15 @@ img {
 }
 
 .card-social-media-10x p {
-  font-size: 20px;
+  font-size: 1.5em;
   color: hsl(254, 88%, 90%);
   margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .card-social-media-10x img {
-  width: 200px;
-  padding: 5px;
+  width: 13em;
+  padding: 2.2em 0 0.3em 0em;
 }
 
 /* Schedule to social media */
@@ -116,26 +113,28 @@ img {
   grid-row: span 4;
   position: relative;
   overflow: hidden;
-  padding: 10px 50px 20px 40px;
+  padding: 2.2em;
 }
 
 .card-schedule-social-media h2 {
   color: hsl(0, 0%, 0%);
-  font-size: 38px;
+  font-size: 2.3em;
   font-weight: 500;
   letter-spacing: -2px;
   line-height: 1;
+  margin-block-start: 0.3em;
+  margin-block-end: 0.5em;
 }
 
 .card-schedule-social-media img {
-  width: 420px;
+  width: 23em;
   position: absolute;
 }
 
 .card-schedule-social-media p {
-  margin-top: 430px;
-  margin-bottom: 0px;
-  font-size: 20px;
+  margin-top: 18em;
+  margin-bottom: 0em;
+  font-size: 1.3em;
 }
 
 /* Manage multiple accounts */
@@ -144,19 +143,19 @@ img {
   grid-row: span 2;
   position: relative;
   overflow: hidden;
-  padding: 30px 60px 10px 30px;
+  padding: 1em 3em 2em 2em;
 }
 
 .card-manage-multiple-accounts img {
-  width: 390px;
+  width: 19em;
   position: absolute;
 }
 
 .card-manage-multiple-accounts h2 {
   font-weight: 400;
-  margin-top: 100px;
-  margin-bottom: 0px;
-  font-size: 36px;
+  margin-top: 2.7em;
+  margin-bottom: 0em;
+  font-size: 2em;
   letter-spacing: -2px;
   line-height: 1;
 }
@@ -167,21 +166,22 @@ img {
   grid-row: span 2;
   position: relative;
   overflow: hidden;
-  padding: 30px 50px 10px 30px;
+  padding: 1.5em 2.1em 1em 2.1em;
 }
 
 .card-maintain-consistent-posting h2 {
-  font-size: 36px;
+  font-size: 2em;
   font-weight: 400;
-  letter-spacing: -2px;
+  letter-spacing: -0.06em;
   line-height: 1;
-  margin-block-start: 0px;
-  margin-block-end: 12px;
+  margin-block-start: 0em;
+  margin-block-end: 0.5em;
 }
 
 .card-maintain-consistent-posting img {
   position: absolute;
-  width: 250px;
+  width: 14em;
+  margin-inline: auto;
 }
 
 /* write your content  */
@@ -190,21 +190,22 @@ img {
   grid-row: span 3;
   grid-column: span 1;
   grid-row: span 2;
-  padding: 30px 30px 0px 30px;
+  padding: 2em 2em 0.5em 2em;
 }
 
 .card-write-content h2 {
   color: hsl(0, 0%, 0%);
-  font-size: 48px;
+  font-size: 3em;
   font-weight: 500;
   letter-spacing: -4px;
   line-height: 1;
-  margin-block-start: 0px;
+  margin-block-start: 0em;
+  margin-block-end: 1.3em;
 }
 
 .card-write-content img {
   display: block;
-  width: 250px;
+  width: 14em;
   margin-inline: auto;
 }
 
@@ -212,12 +213,12 @@ img {
 .card-56 {
   background-color: hsl(0, 0%, 100%);
   grid-row: span 1;
-  padding: 30px 35px 20px 35px;
+  padding: 1em 2em 1em 2.1em;
 }
 
 .card-56 h2 {
   font-family: "DMSans";
-  font-size: 70px;
+  font-size: 4em;
   font-weight: 600;
   letter-spacing: -2px;
   margin: 0;
@@ -225,14 +226,14 @@ img {
 
 .card-56 p {
   font-family: "DMSans";
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 400;
-  margin-block-start: 5px;
-  margin-block-end: 40px;
+  margin-block-start: 0.1em;
+  margin-block-end: 1.4em;
 }
 
 .card-56 img {
-  width: 220px;
+  width: 12em;
 }
 
 /* Grow followers with non-stop content. */
@@ -240,29 +241,112 @@ img {
   background-color: hsl(256, 67%, 59%);
   grid-column: span 2;
   grid-row: span 1;
-  padding: 10px 30px 20px 30px;
+  padding: 1.5em;
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 1.8em;
   overflow: hidden;
 }
 
 .card-grow-followers h2 {
-  font-size: 48px;
+  font-size: 2.7em;
   font-weight: 400;
   letter-spacing: -1px;
   line-height: 1;
   color: hsl(0, 0%, 100%);
-  margin-block-start: 0px;
-  margin-block-end: 0px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .card-grow-followers img {
-  width: 230px;
+  width: 16em;
 }
 
 .attribution {
   color: hsl(0, 0%, 0%);
   margin-top: auto;
-  padding: 15px;
+  padding: 1em;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1em;
+  }
+  .bento-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .card {
+    grid-column: span 1;
+    grid-row: auto;
+  }
+
+  /* Create and schedule content quicker */
+  .card-create-schedule {
+    order: 7;
+    font-size: 82%;
+  }
+
+  /* Social Media 10x Faster with AI */
+  .card-social-media-10x {
+    order: 1;
+    padding: 10%;
+    font-size: 80%;
+    line-height: 1;
+  }
+
+  /* Schedule to social media */
+  .card-schedule-social-media {
+    order: 4;
+    font-size: 82%;
+    & img {
+      width: 85%;
+    }
+    & p {
+      margin-block-start: 98%;
+      text-align: center;
+    }
+  }
+
+  /* Manage multiple accounts */
+  .card-manage-multiple-accounts {
+    order: 2;
+    font-size: 88%;
+  }
+
+  /* Maintain a consistent posting schedule. */
+  .card-maintain-consistent-posting {
+    order: 3;
+    font-size: 88%;
+    padding-bottom: 30%;
+  }
+
+  /* write your content  */
+  .card-write-content {
+    order: 8;
+    font-size: 80%;
+    & img {
+      width: 75%;
+      padding-bottom: 1em;
+    }
+  }
+
+  /* >56% faster */
+  .card-56 {
+    order: 6;
+    font-size: 95%;
+  }
+
+  /* Grow followers with non-stop content. */
+  .card-grow-followers {
+    order: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 75%;
+    padding: 5% 16%;
+    text-align: center;
+  }
 }
